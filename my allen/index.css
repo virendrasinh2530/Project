@@ -1,0 +1,504 @@
+.container{
+    border: 0px solid black;
+}
+marquee{
+  width: 100%;
+}
+
+#header{
+   background-color:rgb(56, 55, 55);
+   height: auto;
+  align-items: center;
+  box-shadow: 0 5px 15px rgb(57, 55, 55);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+body{
+  width: 100%;
+  height: auto;
+}
+#menus{
+   color: white;
+   text-decoration: none;
+}
+#menu > ul > a{
+  text-decoration: none;
+}
+
+.LoginBox{
+  height: 340px;
+  width: 300px;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  display: none;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  z-index: 1000;
+}
+.LoginBox p {
+color: black;
+}
+.LoginBox ul {
+  height: 50px;
+  width: 240px;
+  background-color: rgb(13, 31, 91);
+  border: 1px solid black;
+  border-radius: 5px;
+  color: yellow;
+  padding: 15PX 0PX 0PX 55PX;
+}
+
+
+.Login:hover> .LoginBox{
+  display: block;
+
+}
+.portfolio-menu{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.portfolio-menu ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 20px 0px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding:  10px 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  text-align: center;
+}
+.portfolio-menu ul li:hover{
+  color: rgb(0, 0, 0);
+  background: #e74c3c;
+  border-radius: 8px;
+}
+li.active{
+  color: rgb(0, 0, 0);
+  background: #e74c3c;
+  border-radius: 8px;
+
+}
+
+#men-1{
+  display: none;
+}
+#women-1{
+  display: none;
+}
+#boys-1{
+  display: none;
+}
+#girls-1{
+  display: none;
+}
+
+#POLODAY > a{
+  text-decoration: none;
+}
+#POLODAY > a >ul{
+  height: 40px;
+  width: 150px;
+  background-color: rgb(244, 250, 69);
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+}
+
+#HANDBAGS > a{
+  text-decoration: none;
+}
+#HANDBAGS > a >ul{
+  height: 40px;
+  width: 150px;
+  background-color: rgb(244, 250, 69);
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+}
+#TRIBE > a{
+  text-decoration: none;
+}
+#TRIBE > a >ul{
+  height: 40px;
+  width: 150px;
+  background-color:rgb(244, 250, 69);
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+}
+
+#TEESFOREVERYONE > a {
+  text-decoration: none;
+}
+#TEESFOREVERYONE > a > ul {
+  height: 40px;
+  width: 180px;
+  background-color:rgb(244, 250, 69);
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+}
+#COOLSWEATSHIRTS >a {
+  text-decoration: none;
+}
+#COOLSWEATSHIRTS >a > ul {
+  height: 40px;
+  width: 180px;
+  background-color:rgb(244, 250, 69);
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+}
+
+
+
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+  position: relative;
+}
+
+.carousel-cell {
+  width: 100%;
+  margin-right: 0px;
+  /* background: #8C8; */
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+.flickity-prev-next-button {
+  display: none;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 0px;
+  font-size: 0px;
+  color: white;
+}
+.flickity-page-dots {
+  display: none;
+}
+
+
+
+
+
+#tendig-s{
+  background-color: #0e3051;
+}
+#tendig-s > ul > h1 {
+  color: yellow;
+}
+#tstyle > ul > li {
+  color: white;
+}
+#allitem>div >ul > a {
+ text-decoration: none;
+}
+#menitem {
+  display: none;
+}
+#menitem>div >ul > a {
+  text-decoration: none;
+ }
+ #womenitem {
+  display: none;
+}
+#womenitem>div >ul > a {
+  text-decoration: none;
+ }
+ #boysitem {
+  display: none;
+}
+#boysitem>div >ul > a {
+  text-decoration: none;
+ }
+ #girlsitem {
+  display: none;
+}
+
+ .Earn-points {
+  background-image: url("https://s7ap1.scene7.com/is/image/adityabirlafashion/as-image-bg_2x");
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.Earn-points-1{
+  background-color: rgb(245, 217, 8);
+  border-radius: 10px;
+}
+.Earn-points-1 > li {
+  display: flex;
+  text-align: center;
+}
+.Earn-points-1 > li > h5{
+  color: #0e3051;
+  padding-top: 10px;
+}
+.Earn-points-1 > button {
+  background-color: #0e3051;
+  color: rgb(245, 217, 8);
+  border-radius: 10px;
+}
+.locate {
+  width: 100%;
+  background-color:  rgb(245, 217, 8);
+}
+.locate >a >p{
+  font-size: 20px;
+  text-decoration: underline red;
+  color: #000000;
+}
+.allen-solly{
+  margin: 0px 15px;
+}
+.allen-solly input{
+  background-color:  rgb(245, 217, 8);
+  color: black;
+}
+.allen-solly h2{
+  font-size: 40px;
+
+}
+.allen-solly h6{
+  font-size: 25px;
+  color: rgb(86, 81, 81);
+
+}
+.allen-solly i{
+  font-size: 15px;
+}
+.allen-solly h5{
+  font-size: 15px;
+}
+
+.button-2{
+  text-align: center;
+}
+.button-2 button{
+  background-color: #0e3051;
+  color: whitesmoke;
+  border-radius: 10px;
+  font-size: 25px;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif  
+}
+.shipping{
+  width: 100%;
+}
+.shipping img{
+  height: 50px;
+  width: 50px;
+}
+.shipping p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.foter-1{
+  width: 1500px;
+}
+.help-about{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+.help-about p {
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+.logo-3{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.email-mobail{
+  display: flex;
+}
+.icon-1{
+  display: flex;
+}
+.foter-2{
+  padding: 0px 20px;
+  margin-right: 50px;
+}
+
+.fo-main p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+.logo-3 ,.email-mobail ,.icon-1 , .p-1{
+  padding: 5px 15px;
+}
+.icon-1 i{
+  padding: 0px 15px;
+}
+.email-mobail i{
+  padding: 0px 5px;
+}
+.plus{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 2px 2px 2px 2px rgb(88, 86, 86); 
+}
+.plus h5{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.plus-1{
+  width: 100%;
+  font-size: 13px;
+  align-items: center;
+  display: flex;
+}
+.p-1{
+  margin-left: 10px;
+  font-size: 15px;
+}
+.vv{
+  background-image: linear-gradient(90deg,#009c8f 0,#2b7bfc 17%,#0e3051 33%,#fa0783 51%,#c90c0c 66%,#f80 82%,#ffdf00)!important;
+  height: 13px!important;
+  margin-bottom: 0px;
+}
+
+
+
+/* allitem1 css.......................................*/
+
+#MRP{
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+#MRPt1{
+  font-size: 20px;
+  text-decoration: line-through;
+  color: #a4a2a2;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+#MRPt2{
+  /* font-size: 20px; */
+  color: #000000;
+  /* margin-left: 15px; */
+  margin-bottom: 0px;
+}
+
+#MRPt3{
+  color: rgb(0, 0, 0); 
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: 5px; 
+  color:  rgb(223, 38, 167);
+  margin-bottom: 0px;
+}
+#taxes{
+  font-size: 15px;
+  color: #a4a2a2;
+}
+
+.size ul{
+  height: 40px;
+  width: 60px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  padding-left: 0px;
+  background-color: #ecefef;
+}
+
+.size ul:hover{
+  background-color: #f5e05b;
+}
+#wearingSize{
+  font-size: 13px;
+  color: #a4a2a2;
+}
+
+.imgallitem{
+  height: 100px;
+  width: 70px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.w-items-buy {
+  height: 50px;
+  /* width: 100%; */
+  background-color: rgb(255, 230, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;      
+  border-radius: 10px;
+}
+
+.w-items-buy:hover {
+   background-color:rgb(255, 237, 72);
+  border-radius: 10px;
+  
+}
+
+.bag-item{
+  height: 50px;
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;      
+  border-radius: 10px;
+  padding-left: 0px;
+}
+.freed{
+  background-color: rgb(214, 228, 247);
+  border-radius: 10px;
+}
+
+
+.wish-item{
+  height: 50px;
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;      
+  border-radius: 10px;margin-left: 2%;
+  padding-left: 0px;
+
+}
+
+.dropdown-menu{
+  width: 100%;
+  display: flex;
+}
+
+.dropdown-menu ul {
+  padding-left: 0px;
+}
+.dropdown-menu p {
+  margin-bottom: 0px;
+}
+
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
